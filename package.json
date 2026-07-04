@@ -1,0 +1,16 @@
+{
+  "name": "maru-forms-mcp",
+  "version": "1.0.0",
+  "description": "MCP server tạo/sửa/đọc Google Forms qua API v1 — dành cho AI coding agent",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "auth": "node src/auth.js",
+    "start": "node src/forms-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "googleapis": "^144.0.0",
+    "zod": "^3.23.8"
+  }
+}
